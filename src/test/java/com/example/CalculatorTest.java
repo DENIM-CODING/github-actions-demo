@@ -22,8 +22,14 @@ class CalculatorTest {
     void shouldMultiplyTwoNumbers() {
         assertEquals(24, calculator.multiply(4, 6));
     }
+    
     @Test
     void shouldDivideTwoNumbers() {
         assertEquals(5, calculator.divide(10, 2));
+    }
+
+    @Test
+    void shouldSquareNumber() {
+        assertEquals(25, calculator.square(5));
     }
 }
